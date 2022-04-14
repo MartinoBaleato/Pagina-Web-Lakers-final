@@ -1,0 +1,74 @@
+header{
+    background-color: #381556;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(./Imgs/Lakers.jpg);
+}
+.marginNav{
+    margin-top: 45px;
+}
+.marginImg{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.marginTitulo{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.TituloLakers{
+    text-decoration: underline;
+}
+.imagenAnillo{
+    margin-top: 30px;
+    border-radius: 90px;
+}
+.subrayado{
+    text-decoration: underline;
+}
+.MarginPrincipal{
+    margin-top: 140px;
+    margin-right: 100px;
+}
+.piePagina{
+    width: 100%;
+    color: white;
+    background-color: #381556;
+}
+.grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 60px 0px;
+}
+.box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+}
+.box figure img{
+    width: 200px;
+}
+.box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+.redes{
+    display: inline-block;
+}
+@media screen and (max-width:770px){
+    .grupo1{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+    }
+}
