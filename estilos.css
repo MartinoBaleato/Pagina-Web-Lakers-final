@@ -31,11 +31,26 @@ body{
     margin-top: 140px;
     margin-right: 100px;
 }
+footer{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0px;
+    color: #381556;
+    background:linear-gradient( 90deg, #ffd700, #381556, #381556, #ffd700);
+    background-position: relative;
+    background-size: 400% 400%;
+    animation: rotate 6s infinite ease-in-out;
+}
+@keyframes rotate {
+    0%{ background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
 .piePagina{
     width: 100%;
     color: white;
-    background-color: #381556;
-}
+} 
+
 .grupo1{
     width: 100%;
     max-width: 1200px;
@@ -44,6 +59,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 60px 0px;
+}
 }
 .box figure{
     width: 100%;
@@ -71,4 +87,4 @@ body{
         grid-gap: 30px;
         padding: 40px 0px;
     }
-}
+} 
