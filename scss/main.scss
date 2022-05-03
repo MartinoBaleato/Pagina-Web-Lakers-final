@@ -1,3 +1,6 @@
+$color-principal: #381556;
+$color-letra: white;
+
 header{
     @extend footer;
 }
@@ -17,9 +20,6 @@ body{
     margin-top: 50px;
     text-decoration: underline;
 }
-.TituloLakers{
-    text-decoration: underline;
-}
 .imagenAnillo{
     margin-top: 100px;
     border-radius: 90px;
@@ -35,7 +35,7 @@ footer{
     width: 100%;
     margin: auto;
     margin-bottom: 0px;
-    color: #381556;
+    color: $color-principal;
     background:linear-gradient( 90deg, #ffd700, #381556, #381556, #ffd700);
     background-position: relative;
     background-size: 400% 400%;
@@ -49,7 +49,8 @@ footer{
 }
 .piePagina{
     width: 100%;
-    color: white;
+    color: $color-letra;
+    
 } 
 
 .grupo1{
@@ -72,7 +73,7 @@ footer{
     width: 200px;
 }
 .box h2{
-    color: white;
+    color: $color-letra;
     margin-bottom: 25px;
     font-size: 32px;
 }
@@ -90,7 +91,10 @@ footer{
 }
 
 .Kobe{
-    background-color: #381556;
+    background-color: $color-principal;
     @extend .imagenAnillo;
     margin-bottom: 100px;
+}
+.letra{
+    font-size: 20px;
 }

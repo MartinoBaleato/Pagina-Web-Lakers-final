@@ -14,9 +14,6 @@ body {
   margin-top: 50px;
   text-decoration: underline; }
 
-.TituloLakers {
-  text-decoration: underline; }
-
 .imagenAnillo, .Kobe {
   margin-top: 100px;
   border-radius: 90px; }
@@ -89,3 +86,6 @@ footer, header {
 .Kobe {
   background-color: #381556;
   margin-bottom: 100px; }
+
+.letra {
+  font-size: 20px; }
