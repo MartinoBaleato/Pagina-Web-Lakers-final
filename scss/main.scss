@@ -1,9 +1,9 @@
 header{
-    background-color: #381556;
+    @extend footer;
 }
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(./Imgs/Lakers.jpg);
+    background-image: url(../Imgs/Lakers.jpg);
 }
 .marginNav{
     margin-top: 45px;
@@ -21,7 +21,7 @@ body{
     text-decoration: underline;
 }
 .imagenAnillo{
-    margin-top: 30px;
+    margin-top: 100px;
     border-radius: 90px;
 }
 .subrayado{
@@ -40,6 +40,7 @@ footer{
     background-position: relative;
     background-size: 400% 400%;
     animation: rotate 6s infinite ease-in-out;
+    font-size: 30px;
 }
 @keyframes rotate {
     0%{ background-position: 0 50%;}
@@ -86,4 +87,10 @@ footer{
         grid-gap: 30px;
         padding: 40px 0px;
     }
-} 
+}
+
+.Kobe{
+    background-color: #381556;
+    @extend .imagenAnillo;
+    margin-bottom: 100px;
+}
