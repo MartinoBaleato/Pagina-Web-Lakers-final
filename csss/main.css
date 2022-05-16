@@ -14,10 +14,6 @@ body {
   margin-top: 50px;
   text-decoration: underline; }
 
-.imagenAnillo, .Kobe {
-  margin-top: 100px;
-  border-radius: 90px; }
-
 .subrayado {
   text-decoration: underline; }
 
@@ -85,7 +81,20 @@ footer, header {
 
 .Kobe {
   background-color: #381556;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  margin-top: 100px;
+  border-radius: 90px; }
 
 .letra {
   font-size: 20px; }
+
+.fondohistory {
+  background-color: #381556; }
+
+.ImgEstadio {
+  margin-bottom: 100px; }
+
+.Imganillo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
